@@ -9,7 +9,7 @@ body{
     min-height: 100vh;
     display: grid;
     place-items: center;
-   background-color: #d7ebee
+   background: linear-gradient(to right, #d7ebee, rgb(169, 164, 164));
   
 }
 
@@ -20,7 +20,7 @@ body{
     max-width: 699px;
     display: flex;
     flex-direction: column;
-    background-color: #464850 ;
+    background: linear-gradient(to left, #464850, #2a2a31);
     text-align: center;
     padding: 2em;
 }
@@ -53,6 +53,7 @@ body{
  letter-spacing: 1px;
  font-size: "Fire sans" sans-serif;
  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+ 
 }
 
 .description
@@ -96,6 +97,7 @@ body{
  }
  .name{
     padding-top: 30px;
+    padding-left: 30px;
     display: flex;
     font-size: 25px;
     text-align: left;
